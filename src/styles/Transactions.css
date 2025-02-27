@@ -1,0 +1,49 @@
+.container {
+  max-width: 600px;
+}
+
+.btn-light {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 60px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.btn-light img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.badge {
+  font-size: 14px;
+  padding: 8px 12px;
+}
+
+.form-select {
+  max-width: 200px;
+  display: inline-block;
+}
+
+.btn-group .btn {
+  font-size: 14px;
+}
+
+.text-center {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}

@@ -1,0 +1,113 @@
+/* src/VerificationForm.css */
+.verification-container {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.form-container {
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+}
+
+.flag-icon {
+  width: 24px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.radio-group div {
+  display: flex;
+  align-items: center;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+.next-button {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.next-button:hover {
+  background-color: #e65c00;
+}
+
+/* App.css */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: none;
+}
+
+.card-body h5 {
+  margin-bottom: 20px;
+}
+
+.card-body img {
+  width: 100px;
+  height: auto;
+}
+
+.card-body ul {
+  padding-left: 0;
+}
+
+.card-body ul li {
+  margin-bottom: 10px;
+}
+
+.card-body a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.card-body a:hover {
+  text-decoration: underline;
+}
+
+.btn-block {
+  margin-top: 10px;
+}

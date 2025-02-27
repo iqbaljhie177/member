@@ -1,0 +1,46 @@
+.cons {
+  margin: 60px;
+}
+
+.btn-update {
+  width: 30%;
+  margin: 20px;
+  margin-left: auto;
+}
+
+.alert {
+  font-size: 14px !important;
+}
+
+.input-file {
+  top: 70%;
+  cursor: pointer;
+  width: 1000px;
+}
+
+.input-file input {
+  height: 300px;
+}
+
+.parent-avatar {
+  width: 100px;
+  height: 100px;
+}
+
+.btn-link {
+  font-size: 14px !important;
+}
+@media screen and (max-width: 768px) {
+  .btn-update {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .cons {
+    margin: 12px;
+  }
+  .parent-avatar {
+    width: 80px;
+    height: 80px;
+  }
+}
